@@ -19,22 +19,18 @@ namespace ChallengeForXmenBattleCount
 
             string result = "";
 
-            int minBattles = 999; // To keep track of min battles
-            int maxBattles = 0; // To keep track of max battles
-            int minIndex = 0; // To keep track of respective index for later retrieval
-            int maxIndex = 0; // To keep track of respective index for later retrieval
+            int minIndex = 0; // Save index position of min number[] value
+            int maxIndex = 0; // Save index position of max number[] value
 
             for (int i = 0; i < names.Length; i++)
             {
-                if (numbers[i] > maxBattles)
+                if (numbers[i] > numbers[maxIndex]) // If numbers[i] is greater than previous max ...
                 {
-                    maxBattles = numbers[i];
-                    maxIndex = i;
+                    maxIndex = i; // ... save that index location
                 }
-                if (numbers[i] < minBattles)
+                if (numbers[i] < numbers[minIndex]) // If numbers[i] is less than previous min ...
                 {
-                    minBattles = numbers[i];
-                    minIndex = i;
+                    minIndex = i; // ... save that index location
                 }
             }
 
