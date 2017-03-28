@@ -19,9 +19,27 @@ namespace ChallengeForXmenBattleCount
 
             string result = "";
 
+            int minBattles = 999; // To keep track of min battles
+            int maxBattles = 0; // To keep track of max battles
+            int minIndex = 0; // To keep track of respective index for later retrieval
+            int maxIndex = 0; // To keep track of respective index for later retrieval
 
-            // Your Code Here!
+            for (int i = 0; i < names.Length; i++)
+            {
+                if (numbers[i] > maxBattles)
+                {
+                    maxBattles = numbers[i];
+                    maxIndex = i;
+                }
+                if (numbers[i] < minBattles)
+                {
+                    minBattles = numbers[i];
+                    minIndex = i;
+                }
+            }
 
+            result = $"Most battles belong to: {names[maxIndex]} (Value: {numbers[maxIndex]})" +
+                $"<br />Least battles belong to: {names[minIndex]} (Value: {numbers[minIndex]})";
 
             resultLabel.Text = result;
         }

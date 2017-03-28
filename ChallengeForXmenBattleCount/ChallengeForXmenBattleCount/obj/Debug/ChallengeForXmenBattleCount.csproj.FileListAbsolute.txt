@@ -1,0 +1,6 @@
+C:\Users\Gray\Documents\GitHub\5th-CSharp-Challenge\ChallengeForXmenBattleCount\ChallengeForXmenBattleCount\bin\ChallengeForXmenBattleCount.dll.config
+C:\Users\Gray\Documents\GitHub\5th-CSharp-Challenge\ChallengeForXmenBattleCount\ChallengeForXmenBattleCount\bin\ChallengeForXmenBattleCount.dll
+C:\Users\Gray\Documents\GitHub\5th-CSharp-Challenge\ChallengeForXmenBattleCount\ChallengeForXmenBattleCount\bin\ChallengeForXmenBattleCount.pdb
+C:\Users\Gray\Documents\GitHub\5th-CSharp-Challenge\ChallengeForXmenBattleCount\ChallengeForXmenBattleCount\obj\Debug\ChallengeForXmenBattleCount.csprojResolveAssemblyReference.cache
+C:\Users\Gray\Documents\GitHub\5th-CSharp-Challenge\ChallengeForXmenBattleCount\ChallengeForXmenBattleCount\obj\Debug\ChallengeForXmenBattleCount.dll
+C:\Users\Gray\Documents\GitHub\5th-CSharp-Challenge\ChallengeForXmenBattleCount\ChallengeForXmenBattleCount\obj\Debug\ChallengeForXmenBattleCount.pdb
